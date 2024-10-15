@@ -62,10 +62,11 @@ p {
 /* scroll-to hack in order to avoid the navbar hiding content */
 .id-anchor {
     margin-top: -92px;
-    margin-bottom: 92px
+    margin-bottom: 92px;
+    padding-bottom: 92px;
 }
 
-.schedule {
+.schedule, .challenge {
     width: 100%;
     height: 585px;
 }
