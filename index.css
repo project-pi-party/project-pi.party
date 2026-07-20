@@ -40,8 +40,12 @@ p {
     filter: brightness(125%);
 }
 
-.nav-link {
+.nav-link:not(:last-child) {
     margin: 0 1.5em;
+}
+
+.nav-link:last-child {
+    margin: 0 0 0 1.5em;
 }
 
 .main-content {
